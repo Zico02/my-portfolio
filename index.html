@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakariae AHAJI - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="ar">AR</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">ZA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-translate="nav.home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-translate="nav.about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-translate="nav.experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#technical-skills" class="nav-link" data-translate="nav.technicalskills">Technical Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#commercial-skills" class="nav-link" data-translate="nav.commercialskills">Commercial Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link" data-translate="nav.certifications">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#soft-skills" class="nav-link" data-translate="nav.softskills">Soft Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#extracurricular" class="nav-link" data-translate="nav.extracurricular">Extracurricular</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#interests" class="nav-link" data-translate="nav.interests">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="profile.jpeg" alt="Zakariae AHAJI" id="profile-img">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="highlight" data-translate="hero.name">I'm Zakariae AHAJI</span>
+                    </h1>
+                    <p class="hero-description" data-translate="hero.description">
+                        Future Business Leader | Software Engineering Student Passionate About Sales, Innovation & Building Sustainable Growth
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="cv-english.pdf" class="btn btn-primary" data-translate="hero.contact" download id="cv-download">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                        <a href="#experience" class="btn btn-secondary" data-translate="hero.projects">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Projects
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/zakariae-ahaji-4a2b91359/" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Zico02" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:ahajizakariae2@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="about.title">Get to know more about my journey and background</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 data-translate="about.profile">Profile</h3>
+                    <p data-translate="about.description1">
+                        As a computer engineering student passionate about sales, digital marketing, negotiation, and closing, I aim to apply my skills in a dynamic and innovative environment. Ambitious, curious, and results-oriented, I am motivated to actively contribute to the success of your company.
+                    </p>
+                    <p data-translate="about.description2">
+                        With experience in both technical development and commercial activities, I bring a unique perspective that combines analytical thinking with strong interpersonal skills to create meaningful business impact.
+                    </p>
+                </div>
+                <div class="about-timeline">
+                    <div class="timeline-header">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 data-translate="about.timeline">Academic Timeline</h3>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker current"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2023 - Present</div>
+                                <div class="timeline-tag">5th Year</div>
+                                <h4 data-translate="education.emsi.title">Moroccan School of Engineering Sciences (EMSI)</h4>
+                                <p data-translate="education.emsi.degree">Computer Engineering</p>
+                                <span class="timeline-location">Rabat</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2020 - 2023</div>
+                                <h4 data-translate="education.ista.title">Specialized Institute of Applied Technology</h4>
+                                <p data-translate="education.ista.degree">Diploma in Software Development</p>
+                                <span class="timeline-location">Rabat</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2013 - Present</div>
+                                <h4 data-translate="education.conservatory.title">Regional Conservatory of Music</h4>
+                                <p data-translate="education.conservatory.degree">Diploma in Classical Guitar and Music Theory</p>
+                                <span class="timeline-location">Rabat</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="experience.title">Professional Experience</h2>
+                <p class="section-subtitle" data-translate="experience.subtitle">Here is a quick summary of my most recent experiences</p>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3 data-translate="experience.ai.title">Full-Stack Development and Artificial Intelligence</h3>
+                        <p class="experience-company">Tech Innovation Lab</p>
+                        <p class="experience-date">Jul 2025 - Sept 2025</p>
+                        <p data-translate="experience.ai.description">
+                            Developed an intelligent agent based on LLMs to automate e-commerce customer service via WhatsApp. Collaborated with sales teams on prospecting, cold calling, client presentations, and improving commercial communication.
+                        </p>
+                        <div class="experience-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">LLM</span>
+                            <span class="tag">Sales</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3 data-translate="experience.ecommerce.title">E-commerce Manager</h3>
+                        <p class="experience-company">Digital Ventures</p>
+                        <p class="experience-date">Jul 2021 - Present</p>
+                        <p data-translate="experience.ecommerce.description">
+                            Created and managed online stores for selling physical products, focusing on winning products research, digital marketing strategy, and sales optimization to maximize profitability.
+                        </p>
+                        <div class="experience-tags">
+                            <span class="tag">E-commerce</span>
+                            <span class="tag">Digital Marketing</span>
+                            <span class="tag">Strategy</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3 data-translate="experience.reseller.title">E-commerce Reseller</h3>
+                        <p class="experience-company">Independent</p>
+                        <p class="experience-date">2020 - Present</p>
+                        <p data-translate="experience.reseller.description">
+                            Negotiated, purchased, and strategically resold used products with optimized margins, developing strong skills in negotiation, closing, customer relations, and inventory management.
+                        </p>
+                        <div class="experience-tags">
+                            <span class="tag">Negotiation</span>
+                            <span class="tag">Sales</span>
+                            <span class="tag">Inventory</span>
+                            <span class="tag">Customer Relations</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3 data-translate="experience.developer.title">Web Developer - Freelance</h3>
+                        <p class="experience-company">Freelance</p>
+                        <p class="experience-date">2023 - Present</p>
+                        <p data-translate="experience.developer.description">
+                            Designed and developed e-commerce websites for selling sneakers, watches, and perfumes. Built web applications for delivery, library, taxi services, and other business solutions.
+                        </p>
+                        <div class="experience-tags">
+                            <span class="tag">Web Development</span>
+                            <span class="tag">E-commerce</span>
+                            <span class="tag">Full-Stack</span>
+                            <span class="tag">Freelance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3 data-translate="experience.guitar.title">Classical Guitar Teacher</h3>
+                        <p class="experience-company">Conservatory & Private</p>
+                        <p class="experience-date">2022 - Present</p>
+                        <p data-translate="experience.guitar.description">
+                            Teaching classical guitar at the conservatory, in music workshops, and through private home lessons, using an adaptive and student-centered teaching approach.
+                        </p>
+                        <div class="experience-tags">
+                            <span class="tag">Teaching</span>
+                            <span class="tag">Guitar</span>
+                            <span class="tag">Music</span>
+                            <span class="tag">Leadership</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3 data-translate="experience.theory.title">Music Theory Teacher</h3>
+                        <p class="experience-company">Conservatory & Private</p>
+                        <p class="experience-date">2022 - Present</p>
+                        <p data-translate="experience.theory.description">
+                            Teaching music theory at the conservatory and through private lessons, helping students understand musical concepts, harmony, and composition.
+                        </p>
+                        <div class="experience-tags">
+                            <span class="tag">Teaching</span>
+                            <span class="tag">Theory</span>
+                            <span class="tag">Music</span>
+                            <span class="tag">Education</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="technical-skills" class="technical-skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="technicalskills.title">Technical Skills</h2>
+                <p class="section-subtitle" data-translate="technicalskills.subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="technical-skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-programming">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="technicalskills.programming.title">Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Libraries -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-frameworks">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="technicalskills.frameworks.title">Frameworks & Libraries</h3>
+                        <div class="skill-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">React Native</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">Laravel</span>
+                            <span class="tag">ASP.NET</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">Express.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases & Data Systems -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-databases">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="technicalskills.databases.title">Databases & Data Systems</h3>
+                        <div class="skill-tags">
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">MariaDB</span>
+                            <span class="tag">SQL Server</span>
+                            <span class="tag">Oracle</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">MongoDB (NoSQL)</span>
+                            <span class="tag">Talend</span>
+                            <span class="tag">Hadoop</span>
+                            <span class="tag">Hive</span>
+                            <span class="tag">Pig</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business Intelligence & Analytics -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-bi">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="technicalskills.bi.title">Business Intelligence & Analytics</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Data Warehouse Design</span>
+                            <span class="tag">ETL Pipelines</span>
+                            <span class="tag">Data Modeling</span>
+                            <span class="tag">KPI Reporting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud & DevOps -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-cloud">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="technicalskills.cloud.title">Cloud & DevOps</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Microsoft Azure</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                            <span class="tag">GitLab</span>
+                            <span class="tag">CI/CD Pipelines</span>
+                            <span class="tag">Postman</span>
+                            <span class="tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & IDEs -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-tools">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="technicalskills.tools.title">Tools & IDEs</h3>
+                        <div class="skill-tags">
+                            <span class="tag">VS Code</span>
+                            <span class="tag">IntelliJ IDEA</span>
+                            <span class="tag">Visual Studio</span>
+                            <span class="tag">Power BI Desktop</span>
+                            <span class="tag">pgAdmin</span>
+                            <span class="tag">StarUML</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">Docker Desktop</span>
+                            <span class="tag">Slack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modeling & Methodologies, Backend & APIs, Web & Mobile Technologies -->
+    <section id="advanced-skills" class="advanced-skills">
+        <div class="container">
+            <div class="advanced-skills-grid">
+                <!-- Modeling & Methodologies -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-modeling">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="technicalskills.modeling.title">Modeling & Methodologies</h3>
+                        <div class="skill-tags">
+                            <span class="tag">UML</span>
+                            <span class="tag">Merise</span>
+                            <span class="tag">Agile Scrum</span>
+                            <span class="tag">Design Thinking</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend & APIs -->
+                <div class="skill-card highlighted">
+                    <div class="skill-icon icon-backend">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="technicalskills.backend.title">Backend & APIs</h3>
+                        <div class="skill-tags">
+                            <span class="tag">RESTful APIs</span>
+                            <span class="tag">JWT Authentication</span>
+                            <span class="tag">Spring Security</span>
+                            <span class="tag">API Integration</span>
+                            <span class="tag">JSON</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web & Mobile Technologies -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-web">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="technicalskills.web.title">Web & Mobile Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">TailwindCSS</span>
+                            <span class="tag">React Native</span>
+                            <span class="tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commercial Skills Section -->
+    <section id="commercial-skills" class="commercial-skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="commercialskills.title">Commercial Skills</h2>
+                <p class="section-subtitle" data-translate="commercialskills.subtitle">Sales and business development expertise</p>
+            </div>
+            <div class="commercial-skills-content">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span data-translate="commercialskills.sales">Sales</span>
+                        <span>98%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 98%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span data-translate="commercialskills.negotiation">Negotiation</span>
+                        <span>97%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 97%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span data-translate="commercialskills.marketing">Marketing</span>
+                        <span>89%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 89%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span data-translate="commercialskills.digitalmarketing">Digital Marketing</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span data-translate="commercialskills.leadgeneration">Lead Generation</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span data-translate="commercialskills.closing">Closing</span>
+                        <span>92%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 92%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span data-translate="commercialskills.coldcalling">Cold Calling</span>
+                        <span>87%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 87%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span data-translate="commercialskills.customerrelations">Customer Relations</span>
+                        <span>96%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 96%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span data-translate="commercialskills.ecommerce">E-commerce Management</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="certifications.title">Certifications & Training</h2>
+                <p class="section-subtitle" data-translate="certifications.subtitle">Professional certifications and completed courses</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card" onclick="window.open('https://catalog-education.oracle.com/ords/certview/sharebadge?id=0A7806DAB478DDC94244E528BED7A9CFA5EEC6AEEC96EBCC91473C884DD9234B', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.oracle.title">Oracle Database Administration 19 Certified Professional</h3>
+                        <p class="cert-provider" data-translate="certifications.oracle.provider">Oracle</p>
+                        <p class="cert-date" data-translate="certifications.oracle.date">Issued Jul 2025</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> DIEOVQVS0UKV
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/4UIURHEOHHNY', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.docker.title">Containers w/ Docker, Kubernetes & OpenShift</h3>
+                        <p class="cert-provider" data-translate="certifications.docker.provider">IBM</p>
+                        <p class="cert-date" data-translate="certifications.docker.date">Issued Mar 2025</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> 4UIURHEOHHNY
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/4UIURHEOHHNY', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.git.title">Git & GitHub</h3>
+                        <p class="cert-provider" data-translate="certifications.git.provider">Google</p>
+                        <p class="cert-date" data-translate="certifications.git.date">Issued May 2025</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> DIEOVQVS0UKV
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/VTYGJKPYIIBA', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.react.title">React Native</h3>
+                        <p class="cert-provider" data-translate="certifications.react.provider">Meta</p>
+                        <p class="cert-date" data-translate="certifications.react.date">Issued May 2025</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> VTYGJKPYIIBA
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.whizlabs.com/certificate/VWBFRCLY5RVA', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.azure.title">Réseaux virtuels dans Azure</h3>
+                        <p class="cert-provider" data-translate="certifications.azure.provider">Whizlabs</p>
+                        <p class="cert-date" data-translate="certifications.azure.date">Issued Feb 2025</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> VWBFRCLY5RVA
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/4Z4GJSY9XGWW', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.software.title">Software Engineering: Software Design and Project Management</h3>
+                        <p class="cert-provider" data-translate="certifications.software.provider">The Hong Kong University of Science and Technology</p>
+                        <p class="cert-date" data-translate="certifications.software.date">Issued Feb 2025</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> 4Z4GJSY9XGWW
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/T2M2HL2PPH2R', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.java.title">Java: Object-Oriented Programming</h3>
+                        <p class="cert-provider" data-translate="certifications.java.provider">University of Pennsylvania</p>
+                        <p class="cert-date" data-translate="certifications.java.date">Issued Dec 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> T2M2HL2PPH2R
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/K7JUHSKKF9IG', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.react-basics.title">React Basics</h3>
+                        <p class="cert-provider" data-translate="certifications.react-basics.provider">Meta</p>
+                        <p class="cert-date" data-translate="certifications.react-basics.date">Issued Dec 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> K7JUHSKKF9IG
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/V8A7KS8NWJFA', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.duke.title">Mesure et gestion de l'impact pour les ODD</h3>
+                        <p class="cert-provider" data-translate="certifications.duke.provider">Duke University</p>
+                        <p class="cert-date" data-translate="certifications.duke.date">Issued May 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> V8A7KS8NWJFA
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/DEVLZ5VP5PJH', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.python.title">Programmation pour tous (mise en route de Python)</h3>
+                        <p class="cert-provider" data-translate="certifications.python.provider">University of Michigan</p>
+                        <p class="cert-date" data-translate="certifications.python.date">Issued May 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> DEVLZ5VP5PJH
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/HTBBBPB889U7', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.unix.title">The Unix Workbench</h3>
+                        <p class="cert-provider" data-translate="certifications.unix.provider">The Johns Hopkins University</p>
+                        <p class="cert-date" data-translate="certifications.unix.date">Issued May 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> HTBBBPB889U7
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/UVG774MUNBJ3', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.epfl.title">Villes africaines: Environnement et enjeux de développement durable</h3>
+                        <p class="cert-provider" data-translate="certifications.epfl.provider">EPFL</p>
+                        <p class="cert-date" data-translate="certifications.epfl.date">Issued May 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> UVG774MUNBJ3
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/DEZZ4XDWMPYW', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.css.title">CSS3</h3>
+                        <p class="cert-provider" data-translate="certifications.css.provider">University of Michigan</p>
+                        <p class="cert-date" data-translate="certifications.css.date">Issued Mar 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> DEZZ4XDWMPYW
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/QLVGWUZPB7Z4', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.html.title">HTML5</h3>
+                        <p class="cert-provider" data-translate="certifications.html.provider">University of Michigan</p>
+                        <p class="cert-date" data-translate="certifications.html.date">Issued Mar 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> QLVGWUZPB7Z4
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/25CP7AGY4YA5', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.js.title">Interactivity with JavaScript</h3>
+                        <p class="cert-provider" data-translate="certifications.js.provider">University of Michigan</p>
+                        <p class="cert-date" data-translate="certifications.js.date">Issued Mar 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> 25CP7AGY4YA5
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/F2B28FFQGXQV', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.cpp.title">Introduction à la programmation orientée objet (en C++)</h3>
+                        <p class="cert-provider" data-translate="certifications.cpp.provider">École Polytechnique</p>
+                        <p class="cert-date" data-translate="certifications.cpp.date">Issued Mar 2024</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> F2B28FFQGXQV
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card" onclick="window.open('https://coursera.org/verify/TR9LRTZGEPKY', '_blank')">
+                    <div class="cert-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 data-translate="certifications.research.title">La recherche documentaire</h3>
+                        <p class="cert-provider" data-translate="certifications.research.provider">École Polytechnique</p>
+                        <p class="cert-date" data-translate="certifications.research.date">Issued Apr 2025</p>
+                        <div class="cert-credential">
+                            <span data-translate="certifications.credential">Credential ID:</span> TR9LRTZGEPKY
+                        </div>
+                        <div class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span data-translate="certifications.view">View Certificate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section id="soft-skills" class="soft-skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="softskills.title">Soft Skills</h2>
+                <p class="section-subtitle" data-translate="softskills.subtitle">Key personal and professional competencies</p>
+            </div>
+            <div class="soft-skills-grid">
+                <div class="soft-skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="softskills.leadership.title">Leadership</h3>
+                        <p data-translate="softskills.leadership.description">Guiding teams and driving projects to successful completion</p>
+                    </div>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="softskills.teamwork.title">Teamwork</h3>
+                        <p data-translate="softskills.teamwork.description">Collaborating effectively with diverse teams and stakeholders</p>
+                    </div>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="softskills.accountability.title">Accountability</h3>
+                        <p data-translate="softskills.accountability.description">Taking responsibility for actions and delivering on commitments</p>
+                    </div>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="softskills.integrity.title">Integrity</h3>
+                        <p data-translate="softskills.integrity.description">Maintaining ethical standards and honest communication</p>
+                    </div>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="softskills.creativity.title">Creativity</h3>
+                        <p data-translate="softskills.creativity.description">Innovative thinking and problem-solving approaches</p>
+                    </div>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="softskills.curiosity.title">Curiosity</h3>
+                        <p data-translate="softskills.curiosity.description">Continuous learning and exploration of new technologies</p>
+                    </div>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="softskills.initiative.title">Initiative</h3>
+                        <p data-translate="softskills.initiative.description">Proactive approach to identifying and solving problems</p>
+                    </div>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="softskills.confidence.title">Self-confidence</h3>
+                        <p data-translate="softskills.confidence.description">Belief in abilities and willingness to take on challenges</p>
+                    </div>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3 data-translate="softskills.stress.title">Stress Management</h3>
+                        <p data-translate="softskills.stress.description">Maintaining composure and performance under pressure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extracurricular Activities Section -->
+    <section id="extracurricular" class="extracurricular">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="extracurricular.title">Extracurricular Activities</h2>
+                <p class="section-subtitle" data-translate="extracurricular.subtitle">Team Leader</p>
+            </div>
+            <div class="extracurricular-content">
+                <div class="activity-item">
+                    <div class="activity-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="activity-content">
+                        <h3 data-translate="extracurricular.entrepreneurship.title">Entrepreneurship</h3>
+                        <ul class="activity-list">
+                            <li data-translate="extracurricular.entrepreneurship.competitions">Participated in innovation competitions</li>
+                            <li data-translate="extracurricular.entrepreneurship.projects">Carried out entrepreneurial projects</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <div class="activity-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="activity-content">
+                        <h3 data-translate="extracurricular.music.title">Music & Arts</h3>
+                        <ul class="activity-list">
+                            <li data-translate="extracurricular.music.workshop">Member of the music and arts workshop</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <div class="activity-icon">
+                        <i class="fas fa-chess"></i>
+                    </div>
+                    <div class="activity-content">
+                        <h3 data-translate="extracurricular.chess.title">Chess</h3>
+                        <ul class="activity-list">
+                            <li data-translate="extracurricular.chess.member">Chess club member</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="interests.title">Interests</h2>
+            </div>
+            <div class="interests-content">
+                <div class="interest-tags">
+                    <span class="interest-tag" data-translate="interests.entrepreneurship">
+                        <i class="fas fa-coins"></i>
+                        Entrepreneurship
+                    </span>
+                    <span class="interest-tag" data-translate="interests.sales">
+                        <i class="fas fa-chart-line"></i>
+                        Sales
+                    </span>
+                    <span class="interest-tag" data-translate="interests.reading">
+                        <i class="fas fa-book"></i>
+                        Reading
+                    </span>
+                    <span class="interest-tag" data-translate="interests.chess">
+                        <i class="fas fa-chess"></i>
+                        Chess
+                    </span>
+                    <span class="interest-tag" data-translate="interests.gym">
+                        <i class="fas fa-dumbbell"></i>
+                        Gym
+                    </span>
+                    <span class="interest-tag" data-translate="interests.fishing">
+                        <i class="fas fa-fish"></i>
+                        Fishing
+                    </span>
+                    <span class="interest-tag" data-translate="interests.trip">
+                        <i class="fas fa-campground"></i>
+                        Trip
+                    </span>
+                    <span class="interest-tag" data-translate="interests.travel">
+                        <i class="fas fa-plane"></i>
+                        Travel
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="contact.title">Get In Touch</h2>
+                <p class="section-subtitle" data-translate="contact.subtitle">Feel free to reach out, have a question, or just want to connect.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>ahajizakariae2@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+212 6 49 41 26 42</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>in Ahaji Zakariae</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>Zico02</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-translate="contact.send">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <p>&copy; 2024 Zakariae AHAJI. <span data-translate="footer.rights">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
