@@ -1054,7 +1054,7 @@ section {
 
 /* Technical Skills Section */
 .technical-skills {
-    background: var(--light-bg);
+    background: var(--dark-bg);
     padding: 100px 0;
 }
 
@@ -1150,7 +1150,7 @@ section {
 }
 
 .advanced-skills {
-    background: var(--light-bg);
+    background: var(--dark-bg);
     padding: 100px 0;
 }
 
@@ -1277,7 +1277,7 @@ section {
 }
 /* Extracurricular Activities Section */
 .extracurricular {
-    background: var(--light-bg);
+    background: var(--dark-bg);
     padding: 100px 0;
 }
 
@@ -1405,7 +1405,7 @@ section {
 }
 
 .soft-skills {
-    background: var(--light-bg);
+    background: var(--dark-bg);
     padding: 100px 0;
 }
 
@@ -1795,4 +1795,12 @@ section {
 body {
     opacity: 0;
     transition: opacity 0.5s ease;
+}
+
+/* Light-mode overrides for section backgrounds */
+[data-theme="light"] .technical-skills,
+[data-theme="light"] .advanced-skills,
+[data-theme="light"] .extracurricular,
+[data-theme="light"] .soft-skills {
+    background: var(--light-bg);
 }
