@@ -45,9 +45,6 @@ body {
     --text-primary: #0f172a;
     --text-secondary: #475569;
     --text-muted: #64748b;
-    --light-bg: #0f172a;
-    --light-card: #1e293b;
-    --light-border: #334155;
 }
 
 .container {
