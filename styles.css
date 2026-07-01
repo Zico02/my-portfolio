@@ -770,8 +770,8 @@ section {
 }
 
 .experience-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
@@ -1236,6 +1236,13 @@ section {
 
 .experience-pair .experience-card {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.experience-pair .experience-card-top {
+    flex: 1;
 }
 
 .experience-triple {
@@ -2069,7 +2076,7 @@ section {
         font-size: 1rem;
     }
 
-    .experience-grid {
+    .experience-pair {
         grid-template-columns: 1fr;
     }
 
